@@ -1,0 +1,8 @@
+__pycache__/
+.python-version
+*.png
+*.heic
+*.HEIC
+*.jpg
+*.jpeg
+.DS_Store
