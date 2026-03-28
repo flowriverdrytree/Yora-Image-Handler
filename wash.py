@@ -5,8 +5,8 @@ from PIL import Image
 import pillow_heif  # register HEIC format with Pillow
 pillow_heif.register_heif_opener()
 
-INPUT_DIR = "input_images"
-OUTPUT_DIR = "clean_images"
+INPUT_DIR = "wash_input"
+OUTPUT_DIR = "wash_output"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
